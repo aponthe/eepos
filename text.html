@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <style>
+            body{
+                padding: 7em 12em;
+                font: normal 40px/50px Arial, sans-serif;
+                color: grey;
+            }
+            p{
+                height: 50px;
+                float: left;
+                margin-right: 0.3em;
+            }
+            b{
+                float: left;
+                overflow: hidden;
+                position: relative;
+                height: 50px;
+            }
+            span{
+                display: inline-block;
+                color: royalblue;
+                position: relative;
+                white-space: nowrap;
+                top: 0;
+                left: 0;
+                -webkit-animation: move 5s;
+                -webkit-animation-iteration-count: infinite;
+                -webkit-animation-delay: 1s;
+            }
+            
+            @keyframes move{
+                0%{top:0px;}
+                20%{top:-50px;}
+                40%{top:-100px;}
+            }
+        </style>
+    </head>
+    
+    <body>
+    
+        <div class="container">
+            <div class="row">
+                <p>Soy</p>
+            </div>
+            
+            <b>
+                <span>
+                    gustavin <br>
+                    gus <br>
+                    señor g <br>
+                </span>
+            </b>
+        </div>
+    </body>
+</html>
