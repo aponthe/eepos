@@ -1,241 +1,437 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>NOSOTROS</title>
 
-	<link rel="stylesheet" href="css/nivo-slider.css">
-	<link rel="stylesheet" href="css/mi-slider.css">
-    <script src="js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="js/jquery-3.3.1.slim.min.js"></script>
-    <link rel="stylesheet" href="css/nosotros.css">
-    
-    <!--EEPOS-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
-	<script src="js/jquery.nivo.slider.js"></script>
+  <title>Modern Business - Start Bootstrap Template</title>
 
-	<script type="text/javascript"> 
-		$(window).on('load', function() {
-		    $('#slider').nivoSlider(); 
-            $('#slider2').nivoSlider();
-		}); 
-	</script>
-    <style>
-        
-    </style>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/modern-business.css" rel="stylesheet">
+	<style>
+		.bg-gris{
+			background-color:#D8D8D8;
+		}
+		#responsivo{
+			max-width: 100%;
+			height: 25px;
+		}
+		
+		.bg-browm{
+			background-color: #181907;
+		}
+		
+		#negritas{
+			font-weight:500;
+		}
+		
+		.navbar-light .navbar-nav .nav-link{
+			color: black;
+		}
+		
+		.carousel-indicators li {
+  			width: 15px;
+  			height: 15px;
+  			border-radius: 50%;
+			background-color:transparent;
+			border: solid 2px white;
+    		overflow:hidden;
+			
+		}
+		
+		.carousel-indicators .active{
+			background-color:white;
+		}
+		
+		.carousel-indicators{
+			/*height: -200px;*/
+		}
+		
+		
+		.carousel-caption{
+			right: 20px;
+		}
+		
+		.carousel-inner img {
+    		
+    		max-width: 100%;
+		}
+		#responsivo2{
+			max-width: 100%;
+			height: 150px;
+		}
+		
+		.carousel-inner#tam {
+    		max-width: 100%;
+    		height: 400px;
+		}
+		
+		.carousel-caption#todo{
+			right: 200px;
+			left: 300px;
+			top: 0px;
+		}
+		
+		.pleca{
+			border: none;
+			width: 0;
+			height: 150px;
+			border-left: 10px solid #01A9DB;
+			
+		}
+		.pleca2{
+			border: none;
+			width: 300px;
+			height: 0;
+			border-bottom: 10px solid #01A9DB;
+			
+		}
+		
+		#imgRedonda {
+    		width:200px;
+    		height:280px;
+    		border-radius:150px;
+			
+			
+			
+			
+		}
+
+		
+		
+		
+		
+		
+		
+		
+		
+	</style>
+
 </head>
-<body>
-    
-    <!--NAVEGADOR-->
-    <div class="navegador">
-            <div class="row init">
-	   		  <div class="container">
-				<div class="row">
-                    <div class="col-md-9">
-                    </div>
-				    <div class="col-md-3">
-		   		         <p class="textoS">Eepos Cranes Mexico</p>
-		            </div>
-                    
-				</div>
-			 </div>
-	       </div>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-black position-relative" style="position: fixed; background-color: gainsboro">
-                <div class="col-md-3">
-                    <img src="img/eepos-Logo.png" alt="" style="height: 30px;">
-                </div>
-                <div class="container">
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
-                        <ul class="navbar-nav ml-auto letra">
-                            <li class="nav-item active espacio">
-                                <a class="nav-link espacio" href="index.html" style="color: #000000; font-weight: bolder;font-style: normal;">INICIO</a>
-                            </li>
-                            <li class="nav-item espacio">
-                                <a class="nav-link" href="productos.html" style="color: #000000; font-weight: bolder;font-style: normal;">PRODUCTOS</a>
-                            </li>
-                            <li class="nav-item espacio">
-                                <a class="nav-link" href="servicio.html" style="color: #000000; font-weight: bolder;font-style: normal;">SERVICIO</a>
-                            </li>
-                            <li class="nav-item espacio">
-                                <a class="nav-link" href="#" style="color: #000000; font-weight: bolder;font-style: normal;">CONTACTO</a>
-                            </li>
-                            <li class="nav-item espacio">
-                                <a class="nav-link" href="#" style="color: #000000; font-weight: bolder;font-style: normal;">EEWORLD</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-    
-        </div>
-    
-    <!--SLIDER-->
-    
-	<div class="slider-wrapper theme-mi-slider">
-		<div id="slider" class="nivoSlider" style="height: auto; width: auto">     
-		    <img src="img/1.jpg" alt="" title="#htmlcaption1" />    
-		    <img src="img/2.jpg" alt="" title="#htmlcaption2" />    
-		    <img src="img/3.jpg" alt="" title="#htmlcaption3" />
-            <img src="img/4.jpg" alt="" title="#htmlcaption4" />
-		</div> 
-		<div id="htmlcaption1" class="nivo-html-caption">     
-		    <h1 style="position: absolute; right: 0; bottom: 100px; color: white">PRODUCTOS DE ALTA</h1>
-		    <h1 style="position: absolute; right: 0; bottom: 50px; color: gold">CALIDAD</h1>
+
+<body style="padding-top:0;">
+
+  <!-- Navigation -->
+	<div class="container-fluid">
+		<div class="container" style="padding-top:5px">
+			<div class="row ">
+			<div class="col-md-12 text-right">
+				<h5 style="font-weight: lighter;">Eepos Cranes México</h5>
+			</div>
 		</div>
-		<div id="htmlcaption2" class="nivo-html-caption">     
-		    <h1 style="position: absolute; right: 0; bottom: 100px; color: white">PRODUCTOS DE ALTA</h1>
-		    <h1 style="position: absolute; right: 0; bottom: 50px; color: gold">CALIDAD</h1>
-		</div>
-		<div id="htmlcaption3" class="nivo-html-caption">     
-		    <h1 style="position: absolute; right: 0; bottom: 100px; color: white">PRODUCTOS DE ALTA</h1>
-		    <h1 style="position: absolute; right: 0; bottom: 50px; color: gold">CALIDAD</h1>
-		</div>
-        <div id="htmlcaption4" class="nivo-html-caption">     
-		    <h1 style="position: absolute; right: 0; bottom: 100px; color: white">PRODUCTOS DE ALTA</h1>
-		    <h1 style="position: absolute; right: 0; bottom: 50px; color: gold">CALIDAD</h1>
 		</div>
 	</div>
-    
-    <!--EEPOS ICONOS-->
-    
-    <div class="container" style="text-align: center">
-    <div class="flexbox-container">
-            <div class="image">
-                <img src="img/one.png" class="iconos" alt="">
-                <h1><i>one</i></h1>
-            </div>
-            <div class="image">
-                <img src="img/nano.png" class="iconos" alt="">
-                <h1><i>nano</i></h1>
-            </div>
-            <div class="image">
-                <img src="img/carbon.png" class="iconos" alt="">
-                <h1><i>carbon</i></h1>
-            </div>
-            <div class="image">
-                <img src="img/move.png" class="iconos" alt="">
-                <h1><i>mode</i></h1>
-            </div>
-            <div class="image">
-                <img src="img/base.png" class="iconos" alt="">
-                <h1><i>base</i></h1>
-            </div>
-        </div>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-gris sticky-top">
+    <div class="container">
+      <a class="navbar-brand" style="padding: 0;" href="index.html"><img id="responsivo" src="img/eepos-Logo.png"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul id="negritas" class="navbar-nav ml-auto">
+         
+          <li class="nav-item active" >
+            <a class="nav-link" style="font-weight: 900;" href="services.html">NOSOTROS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="productos.html">PRODUCTOS</a>
+          </li>
+			<li class="nav-item">
+            <a class="nav-link" href="servicio.html">SERVICIO</a>
+          </li>
+			<li class="nav-item">
+            <a class="nav-link" href="contacto.html">CONTÁCTO</a>
+          </li>
+		</li>
+			<li class="nav-item">
+            <a class="nav-link" href="contact.html">EEWORLD</a>
+          </li>
+          
+        </ul>
+      </div>
     </div>
-    
-    <!--EEPOS CRANES MEXICO-->
-    <section class="header-bottom-area header-bottom-bg" style="background-color: gainsboro">
-    <div class="container" >
-        <div class="row">
-            <div class="col-md-3" style="display: table; height: 300px;">
-                <div style="display: table-cell; vertical-align: middle">
-                    <h2><b>EEPOS CRANES</b></h2>
-                    <h1 style="color: royalblue; font-size: 3.9em"><b>MÉXICO</b></h1>
-                </div>
-            </div>
-            <div style="display: table; height: 300px;">
-                <div style="display: table-cell; vertical-align: middle">
-                    <img src="img/pleca.jpeg" style="width: 7px; height: 110px">
-                </div>
-                
-            </div>
-            <div class="col-md-8" style="display: table; height: 300px;">
-                <div style="display: table-cell; vertical-align: middle">
-                    
-                    <p >Gracias a su amplio sistema modular de aluminio, EEPOS CRANES MEXICO y sus sistemas de grúas pueden resolver una gran variedad de problemas de flujo de materiales y manipulación de cargas con un mínimo de esfuerzo para el usuario.</p>
-                    <p>Nuestras socios de ventas y servicios cualificados apoyan de forma óptima a nuestros clientes en la planificación del proyecto de las grúas y garantizan así la satisfacción del cliente.</p>
-                    <p>Nos hemos fijado el objetivo de seguir desarrolando nuestros productos junto con el cliente sobre la base de los requisitos en la práctica.</p>
-                </div>
-            </div>
+  </nav>
+
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('img/1.jpg')">
+          <div class="carousel-caption text-right">
+            <h6 style="font-weight:900;font-size: 2em;line-height: 10px;">PRODUCTOS DE ALTA</h6>
+            <h1 style="color:w;font-weight: 900;font-size:5em;">CALIDAD</h1>
+          </div>
         </div>
-    </div>
-    </section>
-    
-    <!--NUESTRA FILOSOFIA-->
-    <section class="header-bottom-area header-bottom-bg" style="background-color: white">
-    <div class="container" >
-        <div class="row">
-            <div class="col-md-8" style="display: table; height: 300px;">
-                <div style="display: table-cell; vertical-align: middle">
-                    
-                    <p >De todos nuestros objetivos, la satisfacción del cliente es nuestra máxima prioridad en EEPOS CRANES MEXICO como consultores y proceedores de servicios, apoyamos a nuestros clientes desde el primer contacto hasta el último apretón de manos durante el montaje.</p>
-                    <p>Nuestros productos de alta calidad, nuestros empleados cualificados, la transparencia de nuestros precios, unos plazos de entrega inmejorablemente cortos y un enfoque de alta calidad son la base para ello. El suministro de todos los planos, la autoconcepción de la disponibilidad y el almacenamiento de todas las piezas de repuesto son nuestro estándar.</p>
-                </div>
-            </div>
-            <div style="display: table; height: 300px;">
-                <div style="display: table-cell; vertical-align: middle">
-                    <img src="img/pleca.jpeg" style="width: 7px; height: 110px">
-                </div>
-            </div>
-            <div class="col-md-3" style="display: table; height: 300px;">
-                <div style="display: table-cell; vertical-align: middle">
-                    <h2><b>NUESTRA</b></h2>
-                    <h1 style="color: royalblue; font-size: 4em"><b>FILOSOFIA</b></h1>
-                </div>
-            </div>
-            
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('img/2.jpg')">
+          <div class="carousel-caption text-right">
+            <h6 style="font-weight:900;font-size: 2em;line-height: 10px;">PRODUCTOS DE ALTA</h6>
+            <h1 style="color:white;font-weight: 900;font-size:5em;">CALIDAD</h1>
+          </div>
         </div>
-    </div>
-    </section>
-    <!--NUESTRO EQUIPO-->
-    <section class="header-bottom-area header-bottom-bg" style="background-color: gainsboro">
-    <div class="container" >
-        <div class="row">
-            <div class="col-md-12" style="text-align: center; padding-top: 20px">
-                <h1><b>NUESTRO EQUIPO</b></h1>
-            </div>
-            <div class="col-md-12" style="text-align: center">
-                <img src="img/pleca.jpeg" alt="" style="height: 7px; width: 520px; margin-top: -40px">
-            </div>
-            
-            <div class="col-md-5">
-                <div class="perrito">
-                <span>
-                    Jonadab Jarim Osorio Sánchez<br>
-                    Director General<br>
-                    y.osorio@eepos.de <br>
-                </span>
-                </div>
-            </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('img/3.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption text-right">
+            <h6 style="font-weight:900;font-size: 2em;line-height: 10px;">PRODUCTOS DE ALTA</h6>
+            <h1 style="color:white;font-weight: 900;font-size:5em;">CALIDAD</h1>
+          </div>
+          </div>
         </div>
-    </div>
-    
-    </section>
-    <!--CERTIFICADO-->
-    <!--EEPOS CRANES MEXICO-->
-    <section class="header-bottom-area header-bottom-bg" style="background-color: WHITE">
-    <div class="container" >
-        <div class="row">
-            <div class="col-md-3" style="display: table; height: 450px;">
-                <div style="display: table-cell; vertical-align: middle">
-                    <h2><b>CERTIFICADO</b></h2>
-                    <h1 style="color: royalblue; font-size: 3em"><b>TUV SUD</b></h1>
-                    <div style="display: table-cell; vertical-align: middle">
-                            <img src="img/pleca.jpeg" style="width: 210px; height: 7px; margin-bottom: 30px;">
-                    </div>
-                </div>
-                
-            </div>
-            
-            <div class="col-md-8" style="display: table; height: 450px;">
-                <div style="display: table-cell; vertical-align: middle">
-                    
-                    <p >Desde el 13.09.2010 EEPOS CRANES MEXICO ha sido exitosamente recertificada según la última norma ISO 9001:2015.</p>
-                    <p>DIN EN ISO 9001:2015 es una importante característica de calidad para nuestros clientes.</p>
-                    <p>Con la recertificación, EEPOS ha demostrado una vez más que los procedimientos operativos internos de géstion de calidad cumplen con los altos requisitos de la norma ISO.</p>
-                    <p>TÜV SÜD Management Service GmbH emitió el certidicado después de extensas evaluaciones el 13.09.2010. La auditoria documenta un funcionamiento fiable y el cumplimiento de normas de calidad por encima de la media.</p>
-                    <p>Certifica la gestión de calidad de eepos GmbH, que se caracteriza por objetivos claros, procesos eficientes, procesos transparentes y resultados mensurables.</p>
-                </div>
-            </div>
+		   <div class="carousel-item" style="background-image: url('img/4.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption text-right">
+            <h6 style="font-weight:900;font-size: 2em;line-height: 10px;">PRODUCTOS DE ALTA</h6>
+            <h1 style="color:white;font-weight: 900;font-size:5em;">CALIDAD</h1>
+          </div>
+          </div>
         </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-    </section>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container py-5">
+	<div class="row">
+		  <div class="col-md-2 text-center offset-md-1">
+				<img id="responsivo2" src="img/one.png">
+			  	<h1 style="font-weight: 400;font-style: italic;font-size: 3.5em;">one</h1>
+		</div>
+		<div class="col-md-2 text-center">
+				<img id="responsivo2" src="img/nano.png">
+			  	<h1 style="font-weight: 400;font-style: italic;font-size: 3.5em;">nano</h1>
+		</div>
+		<div class="col-md-2 text-center">
+				<img id="responsivo2" src="img/carbon.png">
+			  	<h1 style="font-weight: 400;font-style: italic;font-size: 3.5em;">carbon</h1>
+		</div>
+		<div class="col-md-2 text-center">
+				<img id="responsivo2" src="img/move.png">
+			  	<h1 style="font-weight: 400;font-style: italic;font-size: 3.5em;">move</h1>
+		</div>
+		<div class="col-md-2 text-center">
+				<img id="responsivo2" src="img/base.png">
+			  	<h1 style="font-weight: 400;font-style: italic;font-size: 3.5em;">base</h1>
+		</div>
     
-    <footer id="page-footer" style="text-align: left; padding-left: 60px; background-color: dimgray">
-        <a href="www.google.com" style="color: white">POLITICA DE PRIVACIDAD</a>
-        <p style="color: white">EEPOS CRANES MÉXICO 2019. TODOS LOS DERECHOS RESERVADOS</p>
-    </footer>
+
+  </div>
+	  
+</div>
+	 
+<div class="container-fluid" style="background-color: #D8D8D8">
+	
+	<div class="container py-5">
+		<div class="row">
+			<div class="col-md-4 col-xl-3" style="padding-top: 100px">
+			<h3 style="font-weight:900;line-height:5px;font-size:2.1em">EEPOS CRANES</h3>
+			<h1 style="color:#01A9DB;font-weight:900;font-size: 4em;">MÉXICO</h1>
+			
+			
+		</div>
+		<div class="col-md-1 py-5">
+			<hr class="pleca">
+		</div>
+		
+		<div class="col-md-7 col-xl-8">
+			<h6 style="font-size: 1.2em;">Gracias a su amplio sistema modular de aluminio, EEPOS CRANES MEXICO y sus sistemas de grúas pueden resolver una gran variedad de problemas de flujo de materiales y manipulación de cargas con un mínimo de esfuerzo para el usuario.<br><br>
+
+Nuestras socios de ventas y servicios cualificados apoyan de forma óptima a nuestros clientes en la planificación del proyecto de las grúas y garantizan así la satisfacción del cliente.<br><br>
+
+Nos hemos fijado el objetivo de seguir desarrolando nuestros productos junto con el cliente sobre la base de los requisitos en la práctica.</h6>
+		</div>
+		
+		
+		
+		</div>
+	</div>
+</div>
+	
+<div class="container-fluid py-5">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9">
+				<h6 style="font-size: 1.2em;font-weight: lighter;">
+					De todos nuestros objetivos, la satisfacción del cliente es nuestra máxima prioridad en EEPOS CRANES MEXICO como consultores y proceedores de servicios, apoyamos a nuestros clientes desde el primer contacto hasta el último apretón de manos durante el montaje.<br><br>
+
+Nuestros productos de alta calidad, nuestros empleados cualificados, la transparencia de nuestros precios, unos plazos de entrega inmejorablemente cortos y un enfoque de alta calidad son la base para ello. El suministro de todos los planos, la autoconcepción de la disponibilidad y el almacenamiento de todas las piezas de repuesto son nuestro estándar.
+				
+				</h6>
+			</div>
+			<div class="col-md-1 text-right py-4">
+				<hr class="pleca" style="height: 110px;">
+			</div>
+			<div class="col-md-2" style="padding-top: 70px;">
+				<h3 style="font-weight:900;line-height:5px;font-size:1.3em">EEPOS CRANES</h3>
+			<h1 style="color: #01A9DB;font-weight:900;font-size: 3em;">MÉXICO</h1>
+			</div>
+			
+		</div>
+	</div>
+	
+</div>
+	
+<div class="container-fluid py-5" style="background-color: #D8D8D8">
+	<div class="container py-3">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h2 style="font-weight: 900;line-height: 0">NUESTRO EQUIPO</h2>
+				<hr class="pleca2" >
+			</div>
+		</div>
+		<div class="row py-5">
+			<div class="col-md-3 text-center">
+				<img id="imgRedonda"  src="img/personal/Jarim.png">
+				<h6>textto</h6>
+				<h6>textto</h6>
+				<h6>textto</h6>
+			</div>
+			
+			<div class="col-md-3 text-center">
+				<img id="imgRedonda"  src="img/personal/Marco Polo.png">
+				<h6>textto</h6>
+				<h6>textto</h6>
+				<h6>textto</h6>
+			</div>
+			
+			<div class="col-md-3 text-center">
+				<img id="imgRedonda"  src="img/personal/Ilse.png">
+				<h6>textto</h6>
+				<h6>textto</h6>
+				<h6>textto</h6>
+			</div>
+			
+			<div class="col-md-3 text-center">
+				<img id="imgRedonda"  src="img/personal/Diego.png">
+				<h6>textto</h6>
+				<h6>textto</h6>
+				<h6>textto</h6>
+			</div>
+			
+			<div class="col-md-3 text-center">
+				<img id="imgRedonda"  src="img/personal/Mario.png">
+				<h6>textto</h6>
+				<h6>textto</h6>
+				<h6>textto</h6>
+			</div>
+			
+			<div class="col-md-3 text-center">
+				<img id="imgRedonda"  src="img/personal/Mariana.png">
+				<h6>textto</h6>
+				<h6>textto</h6>
+				<h6>textto</h6>
+			</div>
+			
+			<div class="col-md-3 text-center">
+				<img id="imgRedonda"  src="img/personal/Ana Luisa.png">
+				<h6>textto</h6>
+				<h6>textto</h6>
+				<h6>textto</h6>
+			</div>
+			
+			<div class="col-md-3 text-center">
+				<img id="imgRedonda"  src="img/personal/Ma. Fernanda.png">
+				<h6>textto</h6>
+				<h6>textto</h6>
+				<h6>textto</h6>
+			</div>
+			
+			<div class="col-md-3 text-center offset-md-1">
+				<img id="imgRedonda"  src="img/personal/Brenda.png">
+				<h6>textto</h6>
+				<h6>textto</h6>
+				<h6>textto</h6>
+			</div>
+			
+			<div class="col-md-3 text-center">
+				<img id="imgRedonda"  src="img/personal/Julio.png">
+				<h6>textto</h6>
+				<h6>textto</h6>
+				<h6>textto</h6>
+			</div>
+			
+			<div class="col-md-3 text-center">
+				<img id="imgRedonda"  src="img/personal/Rafael.png">
+				<h6>textto</h6>
+				<h6>textto</h6>
+				<h6>textto</h6>
+			</div>
+			
+			
+		
+		</div>
+	
+	</div>
+	
+</div>
+	
+
+	
+<div class="container-fluid py-5">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-3 text-center" style="padding-top: 70px;">
+				<h3 style="font-weight:900;line-height:45px;font-size:1.6em">CERTIFICADO</h3>
+			<h1 style="color: #01A9DB;font-weight:900;font-size: 2.5em;line-height: 10px;">TUV SUD</h1>
+				<hr class="pleca2" style="width:200px;">
+			</div>
+			<div class="col-md-9">
+				<h6 style="font-size: 1.2em;font-weight: lighter;">
+					Desde el 13.09.2010 EEPOS CRANES MEXICO ha sido exitosamente recertificada según la última norma ISO 9001:2015.<br><br>
+
+DIN EN ISO 9001:2015 es una importante característica de calidad para nuestros clientes.<br><br>
+
+Con la recertificación, EEPOS ha demostrado una vez más que los procedimientos operativos internos de géstion de calidad cumplen con los altos requisitos de la norma ISO.<br><br>
+
+TÜV SÜD Management Service GmbH emitió el certidicado después de extensas evaluaciones el 13.09.2010. La auditoria documenta un funcionamiento fiable y el cumplimiento de normas de calidad por encima de la media.<br>
+
+Certifica la gestión de calidad de eepos GmbH, que se caracteriza por objetivos claros, procesos eficientes, procesos transparentes y resultados mensurables.<br>
+				
+				</h6>
+			</div>
+			
+			
+		</div>
+	</div>
+	
+</div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-browm">
+    <div class="container">
+      <p class="m-0 text-left text-white">POLÍTICA DE PRIVACIDAD</p>
+	<p class="m-0 text-left text-white">EEPOS CRANES MÉXICO 2019. TODOS LOS DERECHOS RESERVADOS</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 </body>
+
 </html>
