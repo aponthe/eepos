@@ -12,20 +12,22 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
   <!-- Custom styles for this template -->
   <link href="css/modern-business.css" rel="stylesheet">
 	<style>
 		.bg-gris{
-			background-color:#D8D8D8;
+			background: url("img/actual/navB.jpg");
 		}
 		#responsivo{
 			max-width: 100%;
-			height: 25px;
+			height: 45px;
+			
 		}
 		
 		.bg-browm{
-			background-color: #181907;
+			background-color: #3c3c3b;
 		}
 		
 		#negritas{
@@ -56,7 +58,8 @@
 		
 		
 		.carousel-caption{
-			right: 20px;
+			
+			top: 100px;
 		}
 		
 		.carousel-inner img {
@@ -68,21 +71,21 @@
 			height: 150px;
 		}
 		
-		.carousel-inner#tam {
+		.carousel-inner {
     		max-width: 100%;
-    		height: 400px;
+    		height: 300px;
 		}
 		
 		.carousel-caption#todo{
-			right: 200px;
-			left: 300px;
+			right: 10px;
+			left: 10px;
 			top: 0px;
 		}
 		
 		.pleca{
 			border: none;
 			width: 0;
-			height: 150px;
+			height: 110px;
 			border-left: 10px solid #01A9DB;
 			
 		}
@@ -103,6 +106,72 @@
 			
 			
 		}
+		#video{
+			  height: 500px;
+			  width: 100%;
+		  }
+		
+		.cuadrado {
+     		width: 30px; 
+     		height: 100px; 
+     		background: #01A9DB;
+			border-radius: 15px;
+			z-index: 999;
+			 box-shadow: 5px 5px #ececec; 
+		}
+		
+		.textoC{
+			color:w;font-weight: 900;font-size:3em;
+		}
+		
+		.textoC1{
+			font-weight:900;font-size: 2.5em;line-height: 10px;
+		}
+		.texto1{
+			color: #01A9DB;font-weight:900;font-size: 2em;font-style: italic;
+		}
+		.iconos{
+			font-weight: 400;font-style: italic;font-size: 3.5em;;
+		}
+		.img1{
+			height: 150px;width: 200px;
+		}
+		.img2{
+			height: 210px;width: 200px;
+		}
+		.textA1{
+			font-weight:900;line-height:5px;font-size:3em;line-height: 2em;
+		}
+		.textA2{
+			font-size: 1.2em;
+		}
+		.mas{
+			max-width: : 100%; height: 280px;
+		}
+		.A2{
+			padding-top: 30px;padding-left: 80px;
+		}
+		.textA3{
+			font-weight:900;line-height:5px;font-size:2em
+		}
+		.coA{
+			padding-top: 70px;
+		}
+		.textA4{
+			color: #01A9DB;font-weight:900;font-size: 3em;
+		}
+		.A3{
+			padding-top: 70px;
+		}
+		.logi{
+			width: 250px
+		}
+		.textA5{
+			font-weight:500;line-height:45px;font-size:2em;color: #01A9DB;font-style: italic;line-height: 2em;
+		}
+		.textA6{
+			font-size: 1.2em;font-weight: lighter;
+		}
 
 		
 		
@@ -119,34 +188,28 @@
 <body style="padding-top:0;">
 
   <!-- Navigation -->
-	<div class="container-fluid">
-		<div class="container" style="padding-top:5px">
-			<div class="row ">
-			<div class="col-md-12 text-right">
-				<h5 style="font-weight: lighter;">Eepos Cranes México</h5>
-			</div>
-		</div>
-		</div>
+	<div class="container-fluid" style="height: 10px;">
+		
 	</div>
   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-gris sticky-top">
     <div class="container">
-      <a class="navbar-brand" style="padding: 0;" href="index.html"><img id="responsivo" src="img/eepos-Logo.png"></a>
+     
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul id="negritas" class="navbar-nav ml-auto">
+        <ul id="negritas" class="navbar-nav text-left">
          
-          <li class="nav-item active" >
-            <a class="nav-link" style="font-weight: 900;" href="services.html">NOSOTROS</a>
+          <li class="nav-item active px-2" >
+            <a class="nav-link" style="font-weight: 900;" href="index.html">NOSOTROS</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item  px-2">
             <a class="nav-link" href="productos.html">PRODUCTOS</a>
           </li>
-			<li class="nav-item">
+			<li class="nav-item  px-2">
             <a class="nav-link" href="servicio.html">SERVICIO</a>
           </li>
-			<li class="nav-item">
+			<li class="nav-item  px-2">
             <a class="nav-link" href="contacto.html">CONTÁCTO</a>
           </li>
 		</li>
@@ -156,49 +219,47 @@
           
         </ul>
       </div>
+	   <a class="navbar-brand" style="padding: 0;" href="index.html"><img id="responsivo" src="img/actual/brand.png"></a>
     </div>
   </nav>
-
+	<div class="cuadrado fixed-top" style="margin-top: 100px">
+		<p align="center" style="padding-top: 10px;"><i class="fab fa-facebook-square" style="color: white;font-size: 1.5em;"></i></p>
+		<p align="center" style="padding-top: 5px;"><i class="fas fa-envelope-open" style="color: white;font-size: 1.5em;"></i></p>
+	</div>
   <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-		<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+		
       </ol>
       <div class="carousel-inner" role="listbox">
         <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item active" style="background-image: url('img/1.jpg')">
-          <div class="carousel-caption text-right">
-            <h6 style="font-weight:900;font-size: 2em;line-height: 10px;">PRODUCTOS DE ALTA</h6>
-            <h1 style="color:w;font-weight: 900;font-size:5em;">CALIDAD</h1>
+        <div class="carousel-item active" style="background-image: url('img/actual/imagenes nosotros/eeposoneETKt-Foto12P.jpg')">
+          <div class="carousel-caption text-center">
+            
+            <h1 class="textoC">GRÚAS AÉREAS LIGERAS</h1>
+			<h6 class="textoC1">PARA LINEAS DE PRODUCCIÓN</h6>
           </div>
         </div>
         <!-- Slide Two - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('img/2.jpg')">
-          <div class="carousel-caption text-right">
-            <h6 style="font-weight:900;font-size: 2em;line-height: 10px;">PRODUCTOS DE ALTA</h6>
-            <h1 style="color:white;font-weight: 900;font-size:5em;">CALIDAD</h1>
+        <div class="carousel-item" style="background-image: url('img/actual/imagenes nosotros/eeposoneETKt-Foto12P.jpg')">
+          <div class="carousel-caption text-center">
+            <h1 class="textoC">GRÚAS AÉREAS LIGERAS</h1>
+			<h6 class="textoC1">PARA LINEAS DE PRODUCCIÓN</h6>
           </div>
         </div>
         <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('img/3.jpg')">
-          <div class="carousel-caption d-none d-md-block">
-            <div class="carousel-caption text-right">
-            <h6 style="font-weight:900;font-size: 2em;line-height: 10px;">PRODUCTOS DE ALTA</h6>
-            <h1 style="color:white;font-weight: 900;font-size:5em;">CALIDAD</h1>
-          </div>
-          </div>
-        </div>
-		   <div class="carousel-item" style="background-image: url('img/4.jpg')">
-          <div class="carousel-caption d-none d-md-block">
-            <div class="carousel-caption text-right">
-            <h6 style="font-weight:900;font-size: 2em;line-height: 10px;">PRODUCTOS DE ALTA</h6>
-            <h1 style="color:white;font-weight: 900;font-size:5em;">CALIDAD</h1>
-          </div>
+        <div class="carousel-item" style="background-image: url('img/actual/imagenes nosotros/eeposoneETKt-Foto12P.jpg')">
+         
+            <div class="carousel-caption text-center">
+           <h1 class="textoC">GRÚAS AÉREAS LIGERAS</h1>
+			<h6 class="textoC1">PARA LINEAS DE PRODUCCIÓN</h6>
+          
           </div>
         </div>
+		  
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -213,26 +274,32 @@
 
   <!-- Page Content -->
   <div class="container py-5">
-	<div class="row">
+	  <h1  align="center" class="texto1">MARCA LIDER EN GRÚAS Y SISTEMAS DE GUIADO DE ALUMINIO</h1>
+	  <header class="header text-center py-3" >
+      
+        <video id="video" src="img/Typing on Keyboard of MacBook Pro.mp4"  autoplay muted></video>
+      
+    </header>
+	<div class="row py-2">
 		  <div class="col-md-2 text-center offset-md-1">
 				<img id="responsivo2" src="img/one.png">
-			  	<h1 style="font-weight: 400;font-style: italic;font-size: 3.5em;">one</h1>
+			  	<h1 class="iconos">one</h1>
 		</div>
 		<div class="col-md-2 text-center">
 				<img id="responsivo2" src="img/nano.png">
-			  	<h1 style="font-weight: 400;font-style: italic;font-size: 3.5em;">nano</h1>
+			  	<h1 class="iconos">nano</h1>
 		</div>
 		<div class="col-md-2 text-center">
 				<img id="responsivo2" src="img/carbon.png">
-			  	<h1 style="font-weight: 400;font-style: italic;font-size: 3.5em;">carbon</h1>
+			  	<h1 class="iconos">carbon</h1>
 		</div>
 		<div class="col-md-2 text-center">
 				<img id="responsivo2" src="img/move.png">
-			  	<h1 style="font-weight: 400;font-style: italic;font-size: 3.5em;">move</h1>
+			  	<h1 class="iconos">move</h1>
 		</div>
 		<div class="col-md-2 text-center">
 				<img id="responsivo2" src="img/base.png">
-			  	<h1 style="font-weight: 400;font-style: italic;font-size: 3.5em;">base</h1>
+			  	<h1 class="iconos">base</h1>
 		</div>
     
 
@@ -240,165 +307,79 @@
 	  
 </div>
 	 
-<div class="container-fluid" style="background-color: #D8D8D8">
-	
-	<div class="container py-5">
-		<div class="row">
-			<div class="col-md-4 col-xl-3" style="padding-top: 100px">
-			<h3 style="font-weight:900;line-height:5px;font-size:2.1em">EEPOS CRANES</h3>
-			<h1 style="color:#01A9DB;font-weight:900;font-size: 4em;">MÉXICO</h1>
-			
-			
-		</div>
-		<div class="col-md-1 py-5">
-			<hr class="pleca">
-		</div>
-		
-		<div class="col-md-7 col-xl-8">
-			<h6 style="font-size: 1.2em;">Gracias a su amplio sistema modular de aluminio, EEPOS CRANES MEXICO y sus sistemas de grúas pueden resolver una gran variedad de problemas de flujo de materiales y manipulación de cargas con un mínimo de esfuerzo para el usuario.<br><br>
-
-Nuestras socios de ventas y servicios cualificados apoyan de forma óptima a nuestros clientes en la planificación del proyecto de las grúas y garantizan así la satisfacción del cliente.<br><br>
-
-Nos hemos fijado el objetivo de seguir desarrolando nuestros productos junto con el cliente sobre la base de los requisitos en la práctica.</h6>
-		</div>
-		
-		
-		
-		</div>
-	</div>
-</div>
-	
 <div class="container-fluid py-5">
-	<div class="container">
+	
+	<div class="container py-1">
 		<div class="row">
-			<div class="col-md-9">
-				<h6 style="font-size: 1.2em;font-weight: lighter;">
-					De todos nuestros objetivos, la satisfacción del cliente es nuestra máxima prioridad en EEPOS CRANES MEXICO como consultores y proceedores de servicios, apoyamos a nuestros clientes desde el primer contacto hasta el último apretón de manos durante el montaje.<br><br>
-
-Nuestros productos de alta calidad, nuestros empleados cualificados, la transparencia de nuestros precios, unos plazos de entrega inmejorablemente cortos y un enfoque de alta calidad son la base para ello. El suministro de todos los planos, la autoconcepción de la disponibilidad y el almacenamiento de todas las piezas de repuesto son nuestro estándar.
+			<div class="col-md-5">
 				
-				</h6>
-			</div>
-			<div class="col-md-1 text-right py-4">
-				<hr class="pleca" style="height: 110px;">
-			</div>
-			<div class="col-md-2" style="padding-top: 70px;">
-				<h3 style="font-weight:900;line-height:5px;font-size:1.3em">EEPOS CRANES</h3>
-			<h1 style="color: #01A9DB;font-weight:900;font-size: 3em;">MÉXICO</h1>
-			</div>
+				
+				<div class="row">
+					<div class="col-md-6 text-center">
+						<img src="img/actual/imagenes nosotros/eepos one ETK - Foto 11.png" class="img2">
+					</div>
+					<div class="col-md-6 text-center py-4">
+						<img src="img/actual/imagenes nosotros/eepos one ETK - Foto 3.png" class="img1">
+					</div>
+					<div class="col-md-6 text-center py-4">
+						<img src="img/actual/imagenes nosotros/eepos one ETK - Foto 4.png" class="img1">
+					</div>
+					<div class="col-md-6 text-center">
+						<img src="img/actual/imagenes nosotros/cargas pesadasone.png" class="img2">
+					</div>
+				</div>
+			
 			
 		</div>
+		
+		
+		<div class="col-md-7">
+			<h3  align="center" class="textA1">EEPOS CRANES <b style="color:#01A9DB">MÉXICO</b></h3>
+			<h6 class="textA2">Gracias a su amplio sistema modular de aluminio, EEPOS CRANES MEXICO y sus sistemas de grúas pueden resolver una gran variedad de problemas de flujo de materiales y manipulación de cargas con un mínimo de esfuerzo para el usuario.<br><br>
+
+Nuestras socios de ventas y servicios cualificados apoyan de forma óptima a nuestros clientes en la planificación del proyecto de las grúas y garantizan su satisfacción.<br></h6>
+		</div>
+		
+		
+		
+		</div>
 	</div>
-	
 </div>
 	
-<div class="container-fluid py-5" style="background-color: #D8D8D8">
+
+	
+<div class="container-fluid py-5" style="background-color: #ececec">
 	<div class="container py-3">
 		<div class="row">
-			<div class="col-md-12 text-center">
-				<h2 style="font-weight: 900;line-height: 0">NUESTRO EQUIPO</h2>
-				<hr class="pleca2" >
-			</div>
-		</div>
-		<div class="row py-5">
-			<div class="col-md-3 text-center">
-				<img id="imgRedonda"  src="img/personal/Jarim.png">
-				<h6>textto</h6>
-				<h6>textto</h6>
-				<h6>textto</h6>
-			</div>
 			
-			<div class="col-md-3 text-center">
-				<img id="imgRedonda"  src="img/personal/Marco Polo.png">
-				<h6>textto</h6>
-				<h6>textto</h6>
-				<h6>textto</h6>
+			<div class="col-md-8">
+				<img src="img/actual/mas.jpg" class="mas">
 			</div>
-			
-			<div class="col-md-3 text-center">
-				<img id="imgRedonda"  src="img/personal/Ilse.png">
-				<h6>textto</h6>
-				<h6>textto</h6>
-				<h6>textto</h6>
+			<div class="col-md-1 text-right A2">
+				<hr class="pleca" >
 			</div>
-			
-			<div class="col-md-3 text-center">
-				<img id="imgRedonda"  src="img/personal/Diego.png">
-				<h6>textto</h6>
-				<h6>textto</h6>
-				<h6>textto</h6>
+			<div class="col-md-3 coA" >
+				<h3 class="textA3">NUESTRA</h3>
+			<h1 class="textA4">FILOSOFÍA</h1>
 			</div>
-			
-			<div class="col-md-3 text-center">
-				<img id="imgRedonda"  src="img/personal/Mario.png">
-				<h6>textto</h6>
-				<h6>textto</h6>
-				<h6>textto</h6>
-			</div>
-			
-			<div class="col-md-3 text-center">
-				<img id="imgRedonda"  src="img/personal/Mariana.png">
-				<h6>textto</h6>
-				<h6>textto</h6>
-				<h6>textto</h6>
-			</div>
-			
-			<div class="col-md-3 text-center">
-				<img id="imgRedonda"  src="img/personal/Ana Luisa.png">
-				<h6>textto</h6>
-				<h6>textto</h6>
-				<h6>textto</h6>
-			</div>
-			
-			<div class="col-md-3 text-center">
-				<img id="imgRedonda"  src="img/personal/Ma. Fernanda.png">
-				<h6>textto</h6>
-				<h6>textto</h6>
-				<h6>textto</h6>
-			</div>
-			
-			<div class="col-md-3 text-center offset-md-1">
-				<img id="imgRedonda"  src="img/personal/Brenda.png">
-				<h6>textto</h6>
-				<h6>textto</h6>
-				<h6>textto</h6>
-			</div>
-			
-			<div class="col-md-3 text-center">
-				<img id="imgRedonda"  src="img/personal/Julio.png">
-				<h6>textto</h6>
-				<h6>textto</h6>
-				<h6>textto</h6>
-			</div>
-			
-			<div class="col-md-3 text-center">
-				<img id="imgRedonda"  src="img/personal/Rafael.png">
-				<h6>textto</h6>
-				<h6>textto</h6>
-				<h6>textto</h6>
-			</div>
-			
-			
-		
-		</div>
 	
 	</div>
 	
 </div>
 	
-
+	</div>
 	
 <div class="container-fluid py-5">
 	<div class="container">
 		<div class="row">
 			
-			<div class="col-md-3 text-center" style="padding-top: 70px;">
-				<h3 style="font-weight:900;line-height:45px;font-size:1.6em">CERTIFICADO</h3>
-			<h1 style="color: #01A9DB;font-weight:900;font-size: 2.5em;line-height: 10px;">TUV SUD</h1>
-				<hr class="pleca2" style="width:200px;">
+			<div class="col-md-3 text-center A3">
+				<img  class="logi" src="img/actual/tuev-sued-eepos.png">
+			
 			</div>
 			<div class="col-md-9">
-				<h6 style="font-size: 1.2em;font-weight: lighter;">
+				<h3 class="textA5">Certificación TUV SUD</h3>
+				<h6 class="textA6">
 					Desde el 13.09.2010 EEPOS CRANES MEXICO ha sido exitosamente recertificada según la última norma ISO 9001:2015.<br><br>
 
 DIN EN ISO 9001:2015 es una importante característica de calidad para nuestros clientes.<br><br>
