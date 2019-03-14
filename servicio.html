@@ -12,6 +12,7 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
   <!-- Custom styles for this template -->
   <link href="css/modern-business.css" rel="stylesheet">
@@ -98,6 +99,15 @@
 			border-bottom: 10px solid #01A9DB;
 			
 		}
+        
+        .cuadrado {
+     		width: 30px; 
+     		height: 100px; 
+     		background: #01A9DB;
+			border-radius: 15px;
+			z-index: 999;
+			 box-shadow: 5px 5px #ececec; 
+		}
 		
 		
 		
@@ -116,45 +126,43 @@
 <body style="padding-top:0;">
 
   <!-- Navigation -->
-	<div class="container-fluid">
-		<div class="container" style="padding-top:5px">
-			<div class="row ">
-			<div class="col-md-12 text-right">
-				<h5 style="font-weight: lighter;">Eepos Cranes México</h5>
-			</div>
-		</div>
-		</div>
+	<div class="container-fluid" style="height: 10px;">
+		
 	</div>
   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-gris sticky-top">
     <div class="container">
-      <a class="navbar-brand" style="padding: 0;" href="index.html"><img id="responsivo" src="img/eepos-Logo.png"></a>
+     
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul id="negritas" class="navbar-nav ml-auto">
+        <ul id="negritas" class="navbar-nav text-left">
          
-          <li class="nav-item" >
-            <a class="nav-link"  href="index.html">NOSOTROS</a>
+          <li class="nav-item active px-2" >
+            <a class="nav-link" style="font-weight: 900;" href="index.html">NOSOTROS</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" style="font-weight: 900;" href="productos.html">PRODUCTOS</a>
+          <li class="nav-item  px-2">
+            <a class="nav-link" href="productos.html">PRODUCTOS</a>
           </li>
-			<li class="nav-item">
+			<li class="nav-item  px-2">
             <a class="nav-link" href="servicio.html">SERVICIO</a>
           </li>
-			<li class="nav-item">
+			<li class="nav-item  px-2">
             <a class="nav-link" href="contacto.html">CONTÁCTO</a>
           </li>
-		</li>
 			<li class="nav-item">
             <a class="nav-link" href="contact.html">EEWORLD</a>
           </li>
           
         </ul>
       </div>
+	   <a class="navbar-brand" style="padding: 0;" href="index.html"><img id="responsivo" src="img/actual/brand.png"></a>
     </div>
   </nav>
+	<div class="cuadrado fixed-top" style="margin-top: 100px">
+		<p align="center" style="padding-top: 10px;"><i class="fab fa-facebook-square" style="color: white;font-size: 1.5em;"></i></p>
+		<p align="center" style="padding-top: 5px;"><i class="fas fa-envelope-open" style="color: white;font-size: 1.5em;"></i></p>
+	</div>
 	
   <div class="container-fluid py-5" style="background-color:#E6E6E6">
 		<div class="container">
