@@ -1,0 +1,115 @@
+	.bg-gris{
+		background: url("../img/actual/navB.jpg");
+	}
+	#responsivo{
+		max-width: 100%;
+		height: 45px;
+	}
+	.bg-browm{
+		background-color: #3c3c3b;
+	}
+	#negritas{
+		font-weight:500;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		color: black;
+	}
+	.cuadrado {
+    width: 30px; 
+    height: 100px; 
+    background: #01A9DB;
+    border-radius: 15px;
+    z-index: 999;
+    box-shadow: 5px 5px #ececec; 
+	}
+	.banner{
+		text-align:right;
+		background: url(../img/move/estacion%20de%20montajes%20move.png) no-repeat center /cover;
+		background-size:cover;
+		position: relative;
+		background-position: center;
+		height: 100%;
+	}
+	.alturabanner{
+		height: 200px;
+	}
+	.textobanner{
+		font-family: CoreSans;
+		font-size: 2em;
+		color: white;
+	}
+	.montaje{
+		background: url(../img/move/componente%201%20move.png) no-repeat center /cover;
+		background-size: 590px 320px;
+		background-position: right;
+		height: auto;
+	}
+	.montajeorden{
+		display: flex;
+		position: relative;
+	}
+	.montajeend{
+		display: flex;
+		justify-content: flex-end;
+	}
+	.montajeicono{
+		display: flex;
+		height: 300px;
+	}
+	.icono{
+		align-self: flex-end;
+		height: 70%;
+	}
+	.montajetextoorden{
+		display: flex; height: auto;
+	}
+	.montajetexto{
+		align-self: flex-end;
+		font-family: CoreSans;
+		font-size: 6em;
+		color: red;
+	}
+	#alturaimagenaudi{
+		height: 430px;
+	}
+	.imagenaudi{
+		background: url(../img/move/estacion%20de%20montajes%20move.png) no-repeat center /cover;
+		background-size: cover;
+		height: 100%;
+	}
+	.elsistema{
+	}
+	.tamanoeje{
+		height: 300px;
+	}
+	.moveL{
+		
+	}
+		
+@media screen and (max-width: 480px){
+	.bg-gris{
+			background: url("../img/actual/navB.jpg");
+		}
+		#responsivo{
+			max-width: 100%;
+			height: 45px;
+		}
+		.bg-browm{
+			background-color: #3c3c3b;
+		}
+		#negritas{
+			font-weight:500;
+		}
+		.navbar-light .navbar-nav .nav-link{
+			color: black;
+		}
+		.cuadrado {
+    		width: 30px; 
+    		height: 100px; 
+    		background: #01A9DB;
+    		border-radius: 15px;
+    		z-index: 999;
+    		box-shadow: 5px 5px #ececec; 
+}
+		
+}
