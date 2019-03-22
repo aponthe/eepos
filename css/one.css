@@ -1,0 +1,303 @@
+@font-face{
+    font-family: CoreSans;
+    src:url(fonts/CoreSans.otf);
+}
+
+@font-face{
+    font-family: FrutigerBold;
+    src:url(fonts/FrutigerBold.otf);
+}
+
+@font-face{
+    font-family: FrutigerLight;
+    src:url(fonts/FrutigerLight.otf);
+}
+
+@font-face{
+    font-family: FrutigerRoman;
+    src:url(fonts/FrutigerRoman.otf);
+}
+
+@font-face{
+    font-family: FrutigerUltraBlack;
+    src:url(fonts/FrutigerUltraBlack.otf);
+}
+
+
+.banner{
+        background: url(../img/one/eepos%20one%20ETK%20-%20Foto%2015.png) no-repeat center /cover; background-size:cover;
+        background-position: center;
+        height: 100%;
+        text-align: right;
+    }
+    
+    .banner-content{
+        height: 300px;
+        position: relative; 
+        height: 300px;
+    }
+    .bannertitulo{
+        font-family: FrutigerBold;
+        font-size: 3em;
+        color: white;
+    }
+    
+    .partedos{
+        background: url(../img/one/riel%204%20one.png) no-repeat center /cover; 
+        background-size: 590px 380px; 
+        background-position: right; 
+        height: auto;
+    }
+    
+    .partedoshijo{
+        display: flex; 
+        position: relative;
+    }
+    
+    .iconoone{
+        height: 300px;
+    }
+    .textoone{
+        font-size: 6em;
+    }
+    
+    .textone{
+        font-size: 1.3em;
+        font-family: FrutigerLight;
+    }
+    
+    
+    .phergonomia{
+        font-family: CoreSans;
+        font-size: 2.5em; 
+        color: rgb(0,151,221); 
+        margin: 20px
+    }
+    
+    .imagenrowuno{
+        height: 300px
+    }
+    
+    .imagenesone{
+         background: url(../img/one/riel%203%20one.png) no-repeat center /cover; 
+        background-size: 490px 250px; 
+        background-position: right; 
+        height: auto;
+    }
+    
+    .hijoimagenesone{
+        height: 300px;
+    }
+    
+    .imagenesonedos{
+        background: url(../img/one/riel%204%20one.png) no-repeat center /cover;
+        background-size: 590px 300px;
+        background-position: right;
+        height: 300px;
+    }
+    
+    .hijoimagenesonedos{
+        height: 300px;
+    }
+
+    .listaone{
+        font-family: CoreSans;
+    }
+
+    p{
+        margin-bottom: 2px;
+    }
+
+    .bg-browm{
+        background-color: rgb(60,60,60);
+    }
+
+    .cargas1{
+        font-family: FrutigerUltraBlack;
+        color: rgb(0,170,221);
+        vertical-align: middle;
+        margin: auto 
+    }
+
+    .cargas2{
+        font-family: FrutigerUltraBlack;
+        vertical-align: middle;
+        margin: auto
+    }
+    .filtrobanner{
+            background: rgba(3,93,161,.7);
+    }
+    .posicionbannertitulo{
+            position: absolute;  right: 0; bottom: 0
+    }
+
+
+/*LAPTOP*/
+@media screen and (min-width: 1024px){
+    .banner{
+        background: url(../img/one/eepos%20one%20ETK%20-%20Foto%2015.png) no-repeat center /cover; background-size:cover;
+        background-position: center;
+        height: 100%;
+        text-align: right;
+    }
+    
+    .banner-content{
+        height: 300px;
+        position: relative; 
+        height: 300px;
+    }
+    .bannertitulo{
+        font-family: FrutigerBold;
+        font-size: 3em;
+        color: white;
+    }
+    .partedos{
+        background: url(../img/one/riel%204%20one.png) no-repeat center /cover; 
+        background-size: 590px 380px; 
+        background-position: right; 
+        height: auto;
+    }
+    .partedoshijo{
+        display: flex; 
+        position: relative;
+    }
+    .partedoshijohijo{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .iconooneposicion{
+        height: 300px;
+        display: flex;
+    }
+    .iconoone{
+        align-self: flex-end;
+        height: 70%;
+    }
+    .textoicono{
+        display: flex;
+        height: auto;
+    }
+    .textoone{
+        font-size: 6em;
+        align-self: flex-end;
+        font-family: CoreSans;
+    }
+    
+    .textone{
+        font-size: 1.3em;
+        font-family: FrutigerLight;
+    }
+    .phergonomia{
+        font-family: CoreSans;
+        font-size: 2.5em; 
+        color: rgb(0,151,221); 
+        margin: 20px
+    }
+    
+    .imagenrowuno{
+        height: 300px
+    }
+    .variasvariantes{
+        text-align: center;
+        font-family: CoreSans;
+        color: rgb(0,151,221);
+    }
+    .imagenesone{
+         background: url(../img/one/riel%203%20one.png) no-repeat center /cover; 
+        background-size: 490px 250px; 
+        background-position: right; 
+        height: auto;
+    }
+    .posicionimagenesone{
+        display: flex;
+        position: relative;
+    }
+    .hijoposicionimagenesone{
+        display: flex;
+        justify-content:flex-start;
+        left: 0;
+    }
+    .hijoimagenesone{
+        height: 300px;
+    }
+    
+    .imagenesonedos{
+        background: url(../img/one/riel%204%20one.png) no-repeat center /cover;
+        background-size: 590px 300px;
+        background-position: right;
+        height: 300px;
+    }
+    
+    .hijoimagenesonedos{
+        height: 330px;
+    }
+
+    .listaone{
+        font-family: CoreSans;
+    }
+
+    p{
+        margin-bottom: 2px;
+    }
+
+    .bg-browm{
+        background-color: rgb(60,60,60);
+    }
+
+    .cargas1{
+        font-family: FrutigerUltraBlack;
+        color: rgb(0,170,221);
+        vertical-align: middle;
+        margin: auto 
+    }
+
+    .cargas2{
+        font-family: FrutigerUltraBlack;
+        vertical-align: middle;
+        margin: auto
+    }
+    .container-fluid{
+        background: rgb(246,246,246);
+        display: table;
+        height: 50px;
+    }
+    .filtrobanner{
+            background: rgba(3,93,161,.7);
+    }
+    .posicionbannertitulo{
+            position: absolute;  right: 0; bottom: 0
+    }
+}
+
+/*TELEFONO*/
+@media screen and (max-width: 480px){
+	.bg-gris{
+			background: url("img/actual/navB.jpg");
+		}
+		#responsivo{
+			max-width: 100%;
+			height: 30px;
+			
+		}
+		
+		.bg-browm{
+			background-color: #3c3c3b;
+		}
+		
+		#negritas{
+			font-weight:500;
+		}
+		
+		.navbar-light .navbar-nav .nav-link{
+			color: black;
+		}
+		
+		.cuadrado {
+     		width: 30px; 
+     		height: 100px; 
+     		background: #01A9DB;
+			border-radius: 15px;
+			z-index: 999;
+			 box-shadow: 5px 5px #ececec; 
+		}	
+}	
