@@ -1,0 +1,24 @@
+@font-face{
+    font-family: CoreSans;
+    src:url(fonts/CoreSans.otf);
+}
+
+@font-face{
+    font-family: FrutigerBold;
+    src:url(fonts/FrutigerBold.otf);
+}
+
+@font-face{
+    font-family: FrutigerLight;
+    src:url(fonts/FrutigerLight.otf);
+}
+
+@font-face{
+    font-family: FrutigerRoman;
+    src:url(fonts/FrutigerRoman.otf);
+}
+
+@font-face{
+    font-family: FrutigerUltraBlack;
+    src:url(fonts/FrutigerUltraBlack.otf);
+}
