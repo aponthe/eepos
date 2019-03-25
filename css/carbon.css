@@ -36,8 +36,8 @@
     position: absolute;  right: 0; bottom: 0
 }
 .bannertitulo{
-    font-family: FrutigerUltraBlack;
-    font-size: 1.3em;
+    font-family: FrutigerBold;
+    font-size: 1.5em;
     color: white;
 }
 .sistemamodular{
@@ -65,12 +65,20 @@
 	color: black
 }
 .montajedebido{
-		}
+	font-family: CoreSans;
+    font-size: 2.5em;
+    color: rgb(0,151,221);
+    margin: 20px;
+}
 #imagenescarbon1{
 	height: 430px;
 }
-.sencilloensamblaje{
-	text-align: center
+.Sencilloensamblaje{
+	text-align: center;
+	font-family: CoreSans;
+	font-size: 2.3em;
+    color: rgb(0,151,221);
+    margin: 20px;
 }
 .imagenesergonomia{
 	background: url(../img/carbon/grua%20carbon.png) no-repeat center /cover;
@@ -85,7 +93,12 @@
 }
 #displayperfildecarbono{
 	display: table;
-    padding-left: 80px;
+	padding-left: 80px;
+    height: 200px;
+}
+#displayperfildecarbono2{
+	display: table;
+	padding-left: 0px;
     height: 200px;
 }
 .perfildecarbono{
@@ -99,7 +112,124 @@
     font-family: FrutigerUltraBlack;
     border-right: 7px solid black;
 }
-/*TELEFONOS*/
+/************RESPONSIVA LAPTOP************/
+@media screen and (max-width: 1024px){
+.bg-gris{
+    background: url("../img/actual/navB.jpg");
+}
+#responsivo{
+	max-width: 100%;
+	height: 45px;
+}
+.bg-browm{
+	background-color: #3c3c3b;
+}
+#negritas{
+	font-weight:500;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: black;
+}
+.cuadrado {
+    width: 30px; 
+    height: 100px; 
+    background: #01A9DB;
+	border-radius: 15px;
+	z-index: 999;
+	box-shadow: 5px 5px #ececec; 
+}
+.banner{
+	text-align:right;
+	background: url(../img/carbon/fibra%20de%20carbono%20carbon.png) no-repeat center /cover;
+	background-position: center;
+	height: 100%
+}
+.banner-content{
+	height: 300px;
+    position: relative
+}
+.posicionbannertitulo{
+    position: absolute;  right: 0; bottom: 0
+}
+.bannertitulo{
+    font-family: FrutigerBold;
+    font-size: 1.5em;
+    color: white;
+}
+.sistemamodular{
+	font-family: CoreSans;
+	font-size: 2em;
+	color: white;
+}
+.carbon{
+	background: url(../img/carbon/grua%20carbon.png) no-repeat center /cover;
+	background-size: 590px 320px;
+	background-position: right;
+	height: auto;
+}
+.carbonposicion{
+	display: flex;
+    position: relative;
+}
+.alturaicono{
+	height: 300px
+}
+.textocarbon{
+    align-self: flex-end;
+	font-family: CoreSans;
+	font-size: 6em;
+	color: black
+}
+.montajedebido{
+	font-family: CoreSans;
+    font-size: 2.5em;
+    color: rgb(0,151,221);
+    margin: 20px;
+}
+#imagenescarbon1{
+	height: 430px;
+}
+.Sencilloensamblaje{
+	text-align: center;
+	font-family: CoreSans;
+	font-size: 2.3em;
+    color: rgb(0,151,221);
+    margin: 20px;
+}
+.imagenesergonomia{
+	background: url(../img/carbon/grua%20carbon.png) no-repeat center /cover;
+	background-size: 490px 250px;
+	background-position: right;
+	height: auto;
+}
+.alturaimagenesergonomia{
+    height: 300px;
+}
+.textcarbonparrafo{
+}
+#displayperfildecarbono{
+	display: table;
+	padding-left: 80px;
+    height: 200px;
+}
+#displayperfildecarbono2{
+	display: table;
+	padding-left: 0px;
+    height: 200px;
+}
+.perfildecarbono{
+	font-family: FrutigerUltraBlack;
+	color: rgb(0,170,221);
+	vertical-align: middle;
+	margin: 0;
+	border-right: 7px solid black;
+}
+.perfildecarbononegro{
+    font-family: FrutigerUltraBlack;
+    border-right: 7px solid black;
+}
+}
+/************RESPONSIVA TELEFONO************/
 @media screen and (max-width: 480px){
 .bg-gris{
     background: url("../img/actual/navB.jpg");
@@ -128,22 +258,26 @@
 .banner{
 	text-align:right;
 	background: url(../img/carbon/fibra%20de%20carbono%20carbon.png) no-repeat center /cover;
-	background-size:cover;
-	position: relative;
-	background-position: center;
+	background-position: right;
+	background-size: cover;
+	text-align: right;
 	height: 100%
 }
 .banner-content{
-	height: 200px;
+	height: 300px;
+    position: relative
 }
-.sistemamodular{
-	font-family: CoreSans;
-	font-size: 2em;
-	color: white;
+.posicionbannertitulo{
+    position: absolute;  right: 0; bottom: 0
+}
+.bannertitulo{
+    font-family: FrutigerBold;
+    font-size: 1.3em;
+    color: white;
 }
 .carbon{
 	background: url(../img/carbon/grua%20carbon.png) no-repeat center /cover;
-	background-size: 590px 320px;
+	background-size: 230px 130px;
 	background-position: right;
 	height: auto;
 }
@@ -152,42 +286,65 @@
     position: relative;
 }
 .alturaicono{
-	height: 300px
+	height: 100px
 }
+.iconocarbon{
+	align-self: flex-end;
+	height: 70%;
+	}
 .textocarbon{
     align-self: flex-end;
 	font-family: CoreSans;
-	font-size: 6em;
+	font-size: 2em;
 	color: black
 }
 .montajedebido{
-		}
-#imagenescarbon1{
-	height: 430px;
+	font-family: CoreSans;
+    font-size: 1.2em;
+    color: rgb(0,151,221);
+    margin: 20px;
 }
-.sencilloensamblaje{
-	text-align: center
+#imagenescarbon1{
+	height: 150px;
+	padding: 0;
+}
+.Sencilloensamblaje{
+	text-align: center;
+	font-family: CoreSans;
+	font-size: 1.2em;
+    color: rgb(0,151,221);
+    margin: 20px;
 }
 .imagenesergonomia{
 	background: url(../img/carbon/grua%20carbon.png) no-repeat center /cover;
-	background-size: 490px 250px;
+	background-size: 250px 150px;
 	background-position: right;
 	height: auto;
 }
 .alturaimagenesergonomia{
-    height: 300px;
+    height: 120px;
 }
 .textcarbonparrafo{
 }
 #displayperfildecarbono{
 	display: table;
-	height: 300px;
+	padding-left: 80px;
+    height: 200px;
+}
+#displayperfildecarbono2{
+	display: table;
+	padding-left: 0px;
+    height: 200px;
 }
 .perfildecarbono{
 	font-family: FrutigerUltraBlack;
 	color: rgb(0,170,221);
 	vertical-align: middle;
 	margin: 0;
-	border-right: 7px solid black;
+	border-right: 0px solid black;
+}
+.perfildecarbononegro{
+    font-family: FrutigerUltraBlack;
+    border-right: 0px solid black;
 }
 }

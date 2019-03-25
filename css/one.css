@@ -102,6 +102,10 @@
 .hijoimagenesone{
     height: 300px;
 }
+
+.rielimagenesone{
+    height: 280px;
+}
 .imagenesonedos{
     background: url(../img/one/riel%204%20one.png) no-repeat center /cover;
     background-size: 590px 300px;
@@ -113,6 +117,7 @@
 }
 .listaone{
     font-family: CoreSans;
+    padding-bottom: 12px;
 }
 p{
     margin-bottom: 2px;
@@ -208,7 +213,7 @@ p{
     position: relative;
 }
 .bannertitulo{
-    font-family: FrutigerUltraBlack;
+    font-family: FrutigerBold;
     font-size: 3em;
     color: white;
 }
@@ -278,6 +283,9 @@ p{
 }
 .hijoimagenesone{
     height: 300px;
+}
+.rielimagenesone{
+    height: 280px;
 }
 .imagenesonedos{
     background: url(../img/one/riel%204%20one.png) no-repeat center /cover;
@@ -388,12 +396,12 @@ p{
 }
 .bannertitulo{
     font-family: FrutigerBold;
-    font-size: 3em;
+    font-size: 1.5em;
     color: white;
 }
 .partedos{
     background: url(../img/one/riel%204%20one.png) no-repeat center /cover; 
-    background-size: 590px 380px; 
+    background-size: 190px 80px; 
     background-position: right; 
     height: auto;
 }
@@ -406,7 +414,7 @@ p{
     justify-content: flex-end;
 }
 .iconooneposicion{
-    height: 300px;
+    height: 100px;
     display: flex;
  }
  .iconoone{
@@ -418,31 +426,32 @@ p{
     height: auto;
 }
 .textoone{
-    font-size: 6em;
+    font-size: 2em;
     align-self: flex-end;
     font-family: CoreSans;
 }
 .textone{
-    font-size: 1.3em;
+    font-size: 1em;
     font-family: FrutigerLight;
 }
 .phergonomia{
     font-family: CoreSans;
-    font-size: 2.5em; 
+    font-size: 1.2em; 
     color: rgb(0,151,221); 
     margin: 20px
 }
 .imagenrowuno{
-    height: 300px
+    height: 150px;
 }
 .variasvariantes{
     text-align: center;
     font-family: CoreSans;
     color: rgb(0,151,221);
+    font-size: 1.2em;
 }
 .imagenesone{
     background: url(../img/one/riel%203%20one.png) no-repeat center /cover; 
-    background-size: 490px 250px; 
+    background-size: 120px 150px; 
     background-position: right; 
     height: auto;
 }
@@ -456,11 +465,19 @@ p{
     left: 0;
 }
 .hijoimagenesone{
-    height: 300px;
+    height: 180px;
+    display: flex;
+    vertical-align: middle;
+}
+.rielimagenesone{
+    align-self: center;
+    height: 100px;
+    display: table-cell;
+    vertical-align: middle;
 }
 .imagenesonedos{
     background: url(../img/one/riel%204%20one.png) no-repeat center /cover;
-    background-size: 590px 300px;
+    background-size: 190px 90px;
     background-position: right;
     height: 300px;
 }
@@ -469,6 +486,7 @@ p{
 }
 .listaone{
     font-family: CoreSans;
+    font-size: 0.8em;
 }
 p{
     margin-bottom: 2px;
@@ -480,21 +498,23 @@ p{
     font-family: FrutigerUltraBlack;
     color: rgb(0,170,221);
     vertical-align: middle;
-    margin: auto 
+    margin: auto;
+    font-size: 1.4em;
 }
 .cargas2{
     font-family: FrutigerUltraBlack;
     vertical-align: middle;
-    margin: auto
+    margin: auto;
+    font-size: 1.3em;
 }
 #sellos{
     display: table;
-    height: 300px;
+    height: 50px;
 }
 .bordesellos{
     display: flex;
     height: 60px;
-    border-right: 7px solid;
+    border-right: 0px solid;
     padding: 10px;
 }
 .palabrasellos{
@@ -502,23 +522,24 @@ p{
     color: rgb(0,170,221);
     vertical-align: middle;
     margin: auto;
+    font-size: 1em;
 }
 #colimagen{
     display: table;
-    height: 300px; 
+    height: 80px; 
 }
 .imagenrueda{
     display: table-cell;
     vertical-align: middle;
     background: url(../img/one/circulo.png) no-repeat center / cover;
-    background-size: 320px 320px;
+    background-size: 80px 80px;
 }
 .heightlistaone{
     display: table;
     height: 300px; 
 }
 .container-fluid{
-    background: rgb(246,246,246);
+    background: rgb(236,236,236);
     display: table;
     height: 50px;
 }
