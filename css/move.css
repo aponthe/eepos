@@ -31,11 +31,16 @@
 		height: 100%;
 	}
 	.alturabanner{
-		height: 200px;
+		height: 300px;
+	}
+	.posicionbanner{
+		position: absolute;
+		right: 0;
+		bottom: 0;
 	}
 	.textobanner{
-		font-family: CoreSans;
-		font-size: 2em;
+		font-family: FrutigerBold;
+		font-size: 3em;
 		color: white;
 	}
 	.montaje{
@@ -67,7 +72,12 @@
 		align-self: flex-end;
 		font-family: CoreSans;
 		font-size: 6em;
-		color: red;
+	}
+	.estilomontaje{
+		font-family: CoreSans;
+    	font-size: 2.5em;
+    	color: rgb(0,151,221);
+    	margin: 20px;
 	}
 	#alturaimagenaudi{
 		height: 430px;
@@ -83,33 +93,221 @@
 		height: 300px;
 	}
 	.moveL{
-		
+		font-family: CoreSans;
+    	font-size: 2.5em;
+    	color: rgb(0,151,221);
+    }
+	.row{
+		margin-right: 0 !important;
 	}
-		
-@media screen and (max-width: 480px){
-	.bg-gris{
-			background: url("../img/actual/navB.jpg");
-		}
-		#responsivo{
-			max-width: 100%;
-			height: 45px;
-		}
-		.bg-browm{
-			background-color: #3c3c3b;
-		}
-		#negritas{
-			font-weight:500;
-		}
-		.navbar-light .navbar-nav .nav-link{
-			color: black;
-		}
-		.cuadrado {
-    		width: 30px; 
-    		height: 100px; 
-    		background: #01A9DB;
-    		border-radius: 15px;
-    		z-index: 999;
-    		box-shadow: 5px 5px #ececec; 
+
+@media screen and (max-width: 1024px){
+		.bg-gris{
+		background: url("../img/actual/navB.jpg");
+	}
+	#responsivo{
+		max-width: 100%;
+		height: 45px;
+	}
+	.bg-browm{
+		background-color: #3c3c3b;
+	}
+	#negritas{
+		font-weight:500;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		color: black;
+	}
+	.cuadrado {
+    width: 30px; 
+    height: 100px; 
+    background: #01A9DB;
+    border-radius: 15px;
+    z-index: 999;
+    box-shadow: 5px 5px #ececec; 
+	}
+	.banner{
+		text-align:right;
+		background: url(../img/move/estacion%20de%20montajes%20move.png) no-repeat center /cover;
+		background-size:cover;
+		position: relative;
+		background-position: center;
+		height: 100%;
+	}
+	.alturabanner{
+		height: 300px;
+	}
+	.posicionbanner{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+	.textobanner{
+		font-family: FrutigerBold;
+		font-size: 3em;
+		color: white;
+	}
+	.montaje{
+		background: url(../img/move/componente%201%20move.png) no-repeat center /cover;
+		background-size: 590px 320px;
+		background-position: right;
+		height: auto;
+	}
+	.montajeorden{
+		display: flex;
+		position: relative;
+	}
+	.montajeend{
+		display: flex;
+		justify-content: flex-end;
+	}
+	.montajeicono{
+		display: flex;
+		height: 300px;
+	}
+	.icono{
+		align-self: flex-end;
+		height: 70%;
+	}
+	.montajetextoorden{
+		display: flex; height: auto;
+	}
+	.montajetexto{
+		align-self: flex-end;
+		font-family: CoreSans;
+		font-size: 6em;
+	}
+	.estilomontaje{
+		font-family: CoreSans;
+    	font-size: 2.5em;
+    	color: rgb(0,151,221);
+    	margin: 20px;
+	}
+	#alturaimagenaudi{
+		height: 430px;
+	}
+	.imagenaudi{
+		background: url(../img/move/estacion%20de%20montajes%20move.png) no-repeat center /cover;
+		background-size: cover;
+		height: 100%;
+	}
+	.elsistema{
+	}
+	.tamanoeje{
+		height: 300px;
+	}
+	.moveL{
+		font-family: CoreSans;
+    	font-size: 2.5em;
+    	color: rgb(0,151,221);
+	}
+
+	.row{
+		margin-right: 0 !important;
+	}
 }
 		
+@media screen and (max-width: 480px){
+		.bg-gris{
+		background: url("../img/actual/navB.jpg");
+	}
+	#responsivo{
+		max-width: 100%;
+		height: 45px;
+	}
+	.bg-browm{
+		background-color: #3c3c3b;
+	}
+	#negritas{
+		font-weight:500;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		color: black;
+	}
+	.cuadrado {
+    width: 30px; 
+    height: 100px; 
+    background: #01A9DB;
+    border-radius: 15px;
+    z-index: 999;
+    box-shadow: 5px 5px #ececec; 
+	}
+	.banner{
+		text-align:right;
+		background: url(../img/move/estacion%20de%20montajes%20move.png) no-repeat center /cover;
+		background-size:cover;
+		position: relative;
+		background-position: center;
+		height: 100%;
+	}
+	.alturabanner{
+		height: 300px;
+	}
+	.posicionbanner{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+	.textobanner{
+		font-family: FrutigerBold;
+		font-size: 1.5em;
+		color: white;
+	}
+	.montaje{
+		background: url(../img/move/componente%201%20move.png) no-repeat center /cover;
+		background-size: 190px 130px;
+		background-position: right;
+		height: auto;
+	}
+	.montajeorden{
+		display: flex;
+		position: relative;
+	}
+	.montajeend{
+		display: flex;
+		justify-content: flex-end;
+	}
+	.montajeicono{
+		display: flex;
+		height: 100px;
+	}
+	.icono{
+		align-self: flex-end;
+		height: 70%;
+	}
+	.montajetextoorden{
+		display: flex; height: auto;
+	}
+	.montajetexto{
+		align-self: flex-end;
+		font-family: CoreSans;
+		font-size: 2em;
+	}
+	.estilomontaje{
+		font-family: CoreSans;
+    	font-size: 1.2em;
+    	color: rgb(0,151,221);
+    	margin: 20px;
+	}
+	#alturaimagenaudi{
+		height: 430px;
+	}
+	.imagenaudi{
+		background: url(../img/move/estacion%20de%20montajes%20move.png) no-repeat center /cover;
+		background-size: cover;
+		height: 100%;
+	}
+	.elsistema{
+	}
+	.tamanoeje{
+		height: 100px;
+	}
+	.moveL{
+		font-family: CoreSans;
+    	font-size: 1.2em;
+    	color: rgb(0,151,221);
+	}
+	.row{
+		margin-right: 0 !important;
+	}
 }
